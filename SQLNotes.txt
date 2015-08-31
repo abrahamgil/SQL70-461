@@ -1,0 +1,4 @@
+SQL Diagram
+	Make sure it has an owner
+	Can manipulate and even add tables/data from there
+	
