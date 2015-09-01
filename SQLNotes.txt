@@ -2,3 +2,40 @@ SQL Diagram
 	Make sure it has an owner
 	Can manipulate and even add tables/data from there
 	
+What are Objects?
+	Tables, Stored Procedures, Indexes, Views etc. All are object.
+	Structure that is used to create specific instances of the object. Each object has properties
+
+Understanding Tables
+	Tables are used to store data
+	Tables have specific number of columns
+		each column stores a certain type of data
+	Table can have an almost unlimited number of rows
+		space, manageability, organization, etc
+
+Understanding Data Integrity
+	Correctness, Consistency, and uniqueness of data stored in a tables/data
+	Make sure we don't store duplicate
+	Data Integrity is handled:
+		Row Level
+			Primary Key
+		Column Level
+			Data Types
+			Constraints
+
+Understanding Data Types
+	Use the correct type of data for the designated column
+	also prevents garbage data 
+	more than 30 data types in SQL Server 2012 (categories following)
+		Exact numeric
+		Approximate numeric
+		Date and time
+		character strings
+		unicode character strings
+		Binary Strings
+		Other Data types
+
+Understanding Primary Keys
+	Used to insure that none of the rows are duplicates
+	You can place primary keys on 2 columns
+	
