@@ -67,3 +67,24 @@ Understand NULL
 Understanding View
 	Provides predetermined data of table	
 	provides ability to query from a table but only from specified columns
+	
+Understanding Stored Procedures
+	SQL version of a subroutine
+		write collection of code
+		give code a name
+		code and execute
+	Advantages
+		Stored procedure is an object
+			so we can give permission and execute
+		Functionality is centralized and consistent
+			code changes happen in one place
+		Stored procedures run more efficiently than standard queries
+
+Understanding Triggers
+	Stored procedure that executes automatically
+		Whenever an update delete or insert executes the stored procedure
+	
+Understanding Synonyms
+	an alternative name for a database object
+		object can exist on a local or remote server
+	Advantage - Simplifies object naming especially on remote servers and provides a layer of abstraction that protects a client application from changes made to the name or location of the base object
