@@ -39,3 +39,31 @@ Understanding Primary Keys
 	Used to insure that none of the rows are duplicates
 	You can place primary keys on 2 columns
 	
+Understanding Constraints
+	a Data type that has more knobs we can control. (Supercharged data type)
+	4 of them
+		Primary Key
+			uniquely identifies each row in a tables
+		Foreign keys
+			Establishes and enforces a link between the data in two table to control data that can be stored in the foreign key tables
+			Usually tied to the Primary key
+		Check 
+			limits the values that are accepted by one or more columns
+			multiple CHECK constraints can be applied to a single column
+		Unique
+			Make sure that no duplicate values are entered in specific columns that do not participate in a primary key (usernames)
+
+Understand NULL
+	NULL does NOT mean
+		Zero
+		Empty
+		Space
+	NULL means one thing
+		Unknown
+	How do we dill with this NULL in a query
+		We can't run a select WHERE level=NULL
+		We can run a SELECT statement WHERE Level IS NULL (or IS NOT NULL)
+
+Understanding View
+	Provides predetermined data of table	
+	provides ability to query from a table but only from specified columns
