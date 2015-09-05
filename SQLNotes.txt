@@ -88,3 +88,12 @@ Understanding Synonyms
 	an alternative name for a database object
 		object can exist on a local or remote server
 	Advantage - Simplifies object naming especially on remote servers and provides a layer of abstraction that protects a client application from changes made to the name or location of the base object
+	
+Changing A Table
+	Using ALTER TABLE command
+		Add or Drop columns
+		Add or drop constraints
+		reassign partitions
+		disable or enable constraints and triggers
+	When using designer and attempting to move columns around on table you will not succeed unless "Prevent saving changes that require table re-creation" is disabled (See DesignerModification.PNG)
+		When you do this the table is actually being dropped and then recreated with all the data
