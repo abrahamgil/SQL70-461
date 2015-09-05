@@ -111,4 +111,56 @@ Deleting a Table
 Creating a Primary Key
 	Can be created when creating a table or do it later
 	PK name will be given a random name if you don't assign one (see PKNaming.PNG)
+
+Four Query Types
+	Select - Retrieve rows from table
+	Insert - Adds one or more rows to a table or view
+	Update - Changes existing data in one or more rows in a table or view
+	Delete - Removes one or more rows front table or view
 	
+Logical query processing steps	
+	SELECT
+	FROM
+	WHERE
+	GROUP BY
+	HAVING 
+	ORDER BY
+
+SQL Server Engine (Order of Operations)
+	FROM
+	WHERE
+	GROUP BY
+	HAVING
+	SELECT
+	ORDER BY
+
+Query Optimization
+	The Query Optimizer:
+		Parsing - Parsed for syntax, object existence, permissions, etc
+		Generate execution plans - Different ways to produce the result set are created
+		Cost assessment of plans
+		Query execution and plan caching - the chosen plan is executed and cached for later use
+		
+Basic Query Best Practices
+	Don't use SELECT * in a production environment
+	Avoid unnecessary columns in the SELECT list
+	Avoid unnecessary tables in joins
+	Avoid using OR if possible
+	Avoid using NOT if possible
+	Use SCHEMA.TABLE naming in your queries
+	Always include a WHERE clause if possible
+
+Comments
+	Two types
+		-- (double hyphens): CTRL+K+C and CTRL+K+U
+		/*...*/ (foward slash asterisk pair)
+	Comments don't affect the processor 
+
+USE Command
+	Makes sure that you are on the correct DB
+	Using this makes queries a bit faster (personal testing)
+	
+GO Command
+	Send it to the processor, close it, and go on to the next command
+	
+
