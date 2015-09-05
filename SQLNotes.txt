@@ -162,5 +162,48 @@ USE Command
 	
 GO Command
 	Send it to the processor, close it, and go on to the next command
-	
 
+SELECT Basics
+	Select tells DB I want to retrieve data from tables, columns, and conditions to data we want to receive
+	Main Clauses:
+		SELECT - Specifies the columns returned
+		FROM - Tables, Views, Derived Tables, and Joined Tables
+		WHERE - Search Condition
+		GROUP BY - Groups a selected set of rows into a summary and one row returned for each group
+		HAVING - Specifies a search condition for a group
+		ORDER BY - Determines the order of the result set, default will returns based on clustered index and how sql server engine brings back the data. Best practice to always use it.
+	
+WHERE Clauses
+	Should always be included
+	defines condition to be met for the rows to be returned
+	**times where indexing + WHERE clause can slow down ridiculously
+	Operators
+		=
+		<>
+		>
+		<
+		>=
+		BETWEEN
+		LIKE
+
+Using TOP to Limit Rows
+	TOP PERCENT
+	WITH TIES
+		ORDER BY Required
+	By default TOP 1000 rows
+		changes on Tools > Options
+		
+ORDER BY
+	Ascending or Descending order
+	Ascending order is default
+	NULLs are treated as the lowest possible values
+	OFFSET and FETCH can be used to control the number of rows returned
+		Useful for Paging
+
+NULLs
+	Cannot be considered equal to anything
+	ISNULL
+	ISNOT NULL
+
+Concatenation
+	See Concatenation.sql
