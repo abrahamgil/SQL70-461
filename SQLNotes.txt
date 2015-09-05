@@ -97,3 +97,18 @@ Changing A Table
 		disable or enable constraints and triggers
 	When using designer and attempting to move columns around on table you will not succeed unless "Prevent saving changes that require table re-creation" is disabled (See DesignerModification.PNG)
 		When you do this the table is actually being dropped and then recreated with all the data
+
+Deleting a Table
+	You don't delete you drop
+	Use DROP TABLE command and when you do
+		All data is removed
+		All indexes, triggers and constraints are removed
+		All permissions specifications for the table are removed
+		Views and Stored procedures referencing table are not dropped
+			Execute the sys.dm_sql_referencing_entities dynamic management function to find which views and stored procedures reference the table you are dropping
+			You can also view dependencies by right clicking on the table and click on "View Dependencies (See ViewDependencies.PNG)"
+			
+Creating a Primary Key
+	Can be created when creating a table or do it later
+	PK name will be given a random name if you don't assign one (see PKNaming.PNG)
+	
