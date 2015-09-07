@@ -216,6 +216,14 @@ Distinct
 SUM
 	Aggregate function
 
-AVG - Averages of all values returned by the query
+AVG - Averages of all values returned by the query and ignores NULL values
 
 COUNT - Number of occurrences of values returned by the query
+
+Using GROUP BY
+	Groups a selected set of rows into a set of summary rows
+	one row is returned for each group
+	every column that is not part of the GROUP BY clause must be using an aggregate function
+
+HAVING
+	It's like a WHERE clause for the GROUP BY clause
