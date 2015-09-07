@@ -207,3 +207,15 @@ NULLs
 
 Concatenation
 	See Concatenation.sql
+	
+Distinct
+	Prevents the retrieval of duplicate items
+		Returns the first instance of a value and ignores all future occurrences of that value
+		Can be used with AVG and SUM functions
+
+SUM
+	Aggregate function
+
+AVG - Averages of all values returned by the query
+
+COUNT - Number of occurrences of values returned by the query
