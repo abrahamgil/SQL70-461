@@ -230,3 +230,14 @@ HAVING
 	
 SELECT INTO
 	Creates a new table in the default filegroup and inserts the resulting rows from query 
+
+LIKE and IN
+	LIKE
+		TSQL Wildcard with like and in on WHERE to find something similar 
+		% - Any string of zero or more characters
+		_ Any single character
+		[] Any single character within the specified range
+			[a-f] [abdf]
+		^ not
+	IN
+		Determines wheter a specified value matches any value in WHERE clause
