@@ -227,3 +227,6 @@ Using GROUP BY
 
 HAVING
 	It's like a WHERE clause for the GROUP BY clause
+	
+SELECT INTO
+	Creates a new table in the default filegroup and inserts the resulting rows from query 
