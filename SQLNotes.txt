@@ -249,3 +249,8 @@ UNION
 	ALL keyword will show duplicates
 	Query Optimizer dumps the last select data
 	
+INTERSECT and EXCEPT
+	Intersect - Common to both tables, Distinct values that are returned by the queires on both left and right side
+	Except - Not common to both values returns distinct values that are found in the left query that are not found in the right query
+	
+	
