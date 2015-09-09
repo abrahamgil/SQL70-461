@@ -240,4 +240,12 @@ LIKE and IN
 			[a-f] [abdf]
 		^ not
 	IN
-		Determines wheter a specified value matches any value in WHERE clause
+		Determines whether a specified value matches any value in WHERE clause
+		
+UNION
+	Combines the results of 2 or more queries into a single result set
+	All rows will be in the union
+	By dqfault duplicates will be removed
+	ALL keyword will show duplicates
+	Query Optimizer dumps the last select data
+	
