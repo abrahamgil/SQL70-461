@@ -255,4 +255,5 @@ INTERSECT and EXCEPT
 	
 Synonyms
 	Provide alternate names for DB objects
+	Abstraction - Re-pointing the name of the Synonym to other tables if table names are changed easily
 	
