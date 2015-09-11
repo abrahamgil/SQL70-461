@@ -263,4 +263,15 @@ OFFSET FETCH
 	Limits the number of rows returned
 	Skips Rows
 	Useful for creating results paging
-	
+
+RANKING
+	Windows functionality T-SQL specific
+	Data Analysis functionality
+	Ranking Functions return a ranking value for each row and result can be divided into partitions
+		Each partition has its own values
+	4 Ranking Functions
+		RANK: Returns the rank of each row within the partition of a result set. 2 or more tied get the same rank
+		DENSE-RANK: Returns the rank of rows within the partition of a result set without any gaps in the ranking (no ties)
+		NTILE: Distributes returned rows into a specified number of groups
+			EX: NTILE(4) with 40 Rows - returns result set divided into 4 groups of 10 rows
+		ROW_NUMBER: Returns sequential number of rows within a partition of a result set starting at 1 for the first row in each partition
