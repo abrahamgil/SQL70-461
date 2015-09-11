@@ -1,0 +1,19 @@
+SELECT DISTINCT FirstName, LastName
+FROM Person.Person
+ORDER BY LastName ASC, FirstName ASC;
+
+SELECT DISTINCT FirstName, LastName
+FROM Person.Person
+ORDER BY LastName ASC, FirstName ASC
+OFFSET 0 ROWS FETCH NEXT 10 ROWS ONLY;
+
+SELECT DISTINCT FirstName, LastName
+FROM Person.Person
+ORDER BY LastName ASC, FirstName ASC
+OFFSET 10 ROWS FETCH NEXT 10 ROWS ONLY;
+
+SELECT DISTINCT FirstName, LastName
+FROM Person.Person
+ORDER BY LastName ASC, FirstName ASC
+OFFSET 20 ROWS FETCH NEXT 10 ROWS ONLY;
+

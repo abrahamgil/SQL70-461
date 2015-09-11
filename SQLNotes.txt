@@ -257,3 +257,10 @@ Synonyms
 	Provide alternate names for DB objects
 	Abstraction - Re-pointing the name of the Synonym to other tables if table names are changed easily
 	
+OFFSET FETCH
+	Similar to TOP
+	Used after ORDER BY
+	Limits the number of rows returned
+	Skips Rows
+	Useful for creating results paging
+	
