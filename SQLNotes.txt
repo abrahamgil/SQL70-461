@@ -275,3 +275,15 @@ RANKING
 		NTILE: Distributes returned rows into a specified number of groups
 			EX: NTILE(4) with 40 Rows - returns result set divided into 4 groups of 10 rows
 		ROW_NUMBER: Returns sequential number of rows within a partition of a result set starting at 1 for the first row in each partition
+
+JOINS
+	Retrieves data from more than 1 table
+	Gets data via normalization 
+	Types:
+		Inner
+		Outer
+			Left
+			Right
+			Full
+		Cross
+		
