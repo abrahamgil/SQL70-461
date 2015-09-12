@@ -286,4 +286,4 @@ JOINS
 			Right
 			Full
 		Cross
-		
+	Table A is left Table and Table B is right table
