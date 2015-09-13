@@ -290,4 +290,5 @@ JOINS
 	GUI can be used to create joins
 		Design Query in Editor
 	Outer Joins
-	
+
+INSERT
