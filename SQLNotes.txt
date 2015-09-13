@@ -282,10 +282,12 @@ JOINS
 	Types:
 		Inner
 		Outer
-			Left
-			Right
-			Full
+			Left - Return all the rows from the left table (left side of statement of query); NULLs for unmatched right table columns
+			Right - Return all the rows from the right table (right side of statement of query); NULLs for unmatched right table columns
+			Full - Returns all rows from both sides
 		Cross
 	Table A is left Table and Table B is right table
 	GUI can be used to create joins
 		Design Query in Editor
+	Outer Joins
+	
