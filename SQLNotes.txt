@@ -287,3 +287,5 @@ JOINS
 			Full
 		Cross
 	Table A is left Table and Table B is right table
+	GUI can be used to create joins
+		Design Query in Editor
