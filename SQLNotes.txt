@@ -292,3 +292,5 @@ JOINS
 	Outer Joins
 
 INSERT
+	Primary method to add data to a table
+	
