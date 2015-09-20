@@ -301,6 +301,8 @@ UPDATE
 DELETE
 	Removes one or more rows from a table
 	NOTE! - Will delete all rows from the table (SQL SERVER)
+	TRUNCATE TABLE- remove all rows from a table (SQL SERVER), FASTER and uses less resources
 	
+
 	
 	
