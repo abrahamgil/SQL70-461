@@ -296,6 +296,11 @@ INSERT
 
 UPDATE
 	Processed as DELETE, INSERT by SQL Server
-	All coloumns in the row are affected
+	All columns in the row are affected
+
+DELETE
+	Removes one or more rows from a table
+	NOTE! - Will delete all rows from the table (SQL SERVER)
+	
 	
 	
